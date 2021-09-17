@@ -1,10 +1,10 @@
 
-import { StyleSheet } from 'react-native';
+import { StyleSheet, Dimensions} from 'react-native';
 const styles = StyleSheet.create({
 
     carContainer:{
         width:'100%',
-        height:"100%"
+        height: Dimensions.get('window').height,
          },
          titles:{
           marginTop:"30%",
@@ -23,6 +23,13 @@ const styles = StyleSheet.create({
            width:'100%',
         height:"100%",
         position:"absolute"
+         },buttonsComponent:{
+          position: 'absolute',
+          bottom: 50,
+          width: '100%'
+         },taglineCTA:{
+          textDecorationLine: 'underline',
+        
          }
 })
 export default styles
