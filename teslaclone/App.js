@@ -3,10 +3,12 @@ import React from 'react';
 import { StyleSheet, Text, View,ImageBackground } from 'react-native';
 import CarItem from "./components/carItem/carItem"
 import CarList from "./components/carList/carspage"
+import Header from './components/heade/header'
 export default function App() {
   return (
 
     <View style={styles.container}>
+      <Header/>
       <CarList/>
      {/* <CarItem/> */}
       <StatusBar style="auto" />

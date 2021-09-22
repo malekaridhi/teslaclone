@@ -8,7 +8,8 @@ const CarsList = () => {
     <View style={styles.container}>
         <FlatList
          data={cars}
-         renderItem={({item}) => <CartItem car={item} />}
+         renderItem={({item,index}) => <CartItem  key={index} car={item} />}
+         showsVerticalScrollIndicator={false}
          snapToAlignment={"start"}
          decelerationRate={'fast'}
          snapToInterval ={Dimensions.get('window').height}
