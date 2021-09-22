@@ -1,4 +1,4 @@
-# teslaclone
+
 <h1 align="center"> Tesla Clone project 
 
 <h3 align="left">Technologie:</h3>
